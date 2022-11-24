@@ -1,0 +1,154 @@
+fontbody {
+  background: #2c3e50;
+  color: white;
+  font-family: monospace;
+}
+.buscador-f {
+  background:#f1f1f1;
+  padding:2px;
+  border-radius:14px;
+  display:inline-block;
+  width:250px;
+  border:1px solid #e1e1e1;
+  margin-bottom: 2rem;
+}
+
+.buscador-f input {
+  width:100%;
+  background:transparent;
+  outline: 0;
+  border:0;
+  padding:8px 10px;
+  font-size:16px;
+  box-sizing: border-box;
+}
+
+.btnEliminar{
+  background: red;
+  padding: 1rem;
+  border-radius: 10%;
+  border: 3px solid;
+  color: white;
+  font-weight: bold;
+}
+
+.btnEditar{
+  background: rgb(185, 196, 137);
+  padding: 1rem;
+  border-radius: 10%;
+  border: 3px solid;
+  color: white;
+  font-weight: bold;
+}
+
+thead td{
+  padding: 1rem;
+  font-size: 2rem;
+  border: 3px solid;
+  font-weight: bolder;
+  background: rgb(26, 103, 219);
+}
+
+tbody td{
+  font-size: 1rem;
+  text-align: center;
+  border: 3px solid;
+  padding: 1rem;
+  background: rgb(39, 102, 196);
+}
+
+
+.modal-btn {
+  border-top:1px solid #e1e1e1;
+}
+
+.modal-btn button{
+  background-color: #0b240f;
+  border: 1px solid black;
+}
+
+.modal-btn button:hover{
+  background-color: #609260;
+  transition: .2s;
+}
+
+.modalcarrito {
+  background:#fff;
+  padding:20px;
+}
+
+.modal-title span{
+  color: #ffffff;
+  background-color:  rgb(176, 143, 111);
+  border-radius: 7px;
+  padding: 7px;
+  -webkit-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.75);
+  
+}
+
+.modal-title {
+  width:100%;
+  text-align: center;
+  font-size:28px;
+}
+
+.modal-input {
+  width:100%;
+  margin:20px 0;
+  user-select:none;
+}
+
+.modal-input input {
+  width:100%;
+  box-sizing: border-box;
+  padding:8px;
+  outline: none;
+  border-radius: 4px;
+  font-size:18px;
+  border:2px solid #e1e1e1;
+}
+
+
+.modal-btn {
+  width:100%;
+}
+
+.modal-btn-c {
+  background:#e01616 !important;
+}
+
+.btn-guardar{
+  width:100%;
+  box-sizing: border-box;
+  padding:10px;
+  cursor:pointer;
+  border-radius: 4px;
+  border:0;
+  font-size:18px;
+  background:#2b9e2d;
+  color:#fff;
+  margin-top:10px;
+}
+
+.botonVolverYCerrar{
+  width:100%;
+  box-sizing: border-box;
+  padding:10px;
+  cursor:pointer;
+  border-radius: 4px;
+  border:0;
+  font-size:18px;
+  background:#1f1b1bc2;
+  color:#fff;
+  margin-top:10px;
+}
+
+.modal-title{
+  font-size: 40px;
+  border: none;
+  text-align: center;
+  border-radius: 1rem;
+  color: #f1f1f1;
+}
